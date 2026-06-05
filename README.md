@@ -1,2 +1,2 @@
-### AgentRecBen and Implementation of MoE Early Fusion ###
-This repo is a full implementation of moe early fusion consists of Semantic, Sasrec, GCN.
+### Full Implementation of MoERec ###
+This repo is a full implementation of MoERec consists of three experts : Semantic, Sasrec, GCN.
