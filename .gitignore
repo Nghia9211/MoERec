@@ -1,0 +1,46 @@
+/EDA
+/ollama-docker
+/results.py
+/vllm_huggingface_cache
+
+.env
+AFL2plugin/MoE/.env
+
+__pycache__/
+*.pyc
+*.pyo
+
+*.pt
+*.bin
+*.pkl
+*.faiss
+MoE/checkpoints/*
+MoE/saved_models/*
+baseline/*/checkpoints/*
+baseline/*/saved_models/*
+plot/
+
+*.txt
+*.jsonl
+*.csv
+*.sqlite3
+*.mdb
+*.db
+*.df
+*.zip
+*.json
+*.pdf
+*.png
+# dataset raw / processed directories
+dataset/raw/*
+MoE/data/*
+plugin/MoE/data/*
+
+# ── Output & logs ─────────────────────────────────────────────────────────
+/output/*
+plugin/MoE/output/*
+storage
+
+# ── Plots ─────────────────────────────────────────────────────────────────
+*plot/*
+/plugin/gcn/plots/*
